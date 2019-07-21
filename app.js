@@ -26,7 +26,7 @@ yargs.command({
 
 yargs.command({
 	command : "remove",
-	describe : "Rovind specified note from the notes...",
+	describe : "Removing specified note from the notes...",
 	builder : {
 		title : {
 			describe : "Specifies the title of the file",
@@ -44,4 +44,4 @@ yargs.command({
 	}
 });
 
-//console.log(yargs.argv)
+yargs.parse()
